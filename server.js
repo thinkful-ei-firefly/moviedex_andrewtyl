@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const movieDatabase = require('./dev-movies-data');
+const movieDatabase = require('./movies-data');
 
 app.use(morgan('dev'));
 app.use(helmet());
